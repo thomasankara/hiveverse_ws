@@ -1,0 +1,470 @@
+<sdf version='1.11'>
+  <model name='mk5-200'>
+    <link name='base_footprint'>
+      <inertial>
+        <pose>-0.01856834532374101 0 0.16712589928057561 0 0 0</pose>
+        <mass>55.600000000000001</mass>
+        <inertia>
+          <ixx>0.32891811870503612</ixx>
+          <ixy>0</ixy>
+          <ixz>0.081474021582733869</ixz>
+          <iyy>1.025726958992806</iyy>
+          <iyz>0</iyz>
+          <izz>0.95460884028776982</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_footprint_fixed_joint_lump__base_block_collision'>
+        <pose>-0.025000000000000001 0 0.16200000000000001 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.20000000000000001 0.40000000000000002 0.14999999999999999</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__airy_back_collision_1'>
+        <pose>-0.87 0 0.247 0 -1.5707963267948966 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.059999999999999998</length>
+            <radius>0.040000000000000001</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__airy_front_collision_2'>
+        <pose>0.050000000000000003 0 0.96200000000000008 3.1415926535897931 1.1415926535897938 3.1415926535897931</pose>
+        <geometry>
+          <cylinder>
+            <length>0.059999999999999998</length>
+            <radius>0.040000000000000001</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__base_box_collision_3'>
+        <pose>-0.55000000000000004 0 0.66200000000000003 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.80000000000000004 0.80000000000000004 0.69999999999999996</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__base_plate_collision_4'>
+        <pose>-0.5 0 0.28499999999999998 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.69999999999999996 0.80000000000000004 0.02</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__front_plate_collision_5'>
+        <pose>-0.050000000000000003 0 0.66200000000000003 0 1.4000000000000004 0</pose>
+        <geometry>
+          <box>
+            <size>0.90000000000000002 0.40000000000000002 0.049999999999999989</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__jt16_center_collision_6'>
+        <pose>-0.60699999999999998 0 0.187 3.1415926535897931 0.001592653589793114 3.1415926535897931</pose>
+        <geometry>
+          <cylinder>
+            <length>0.059999999999999998</length>
+            <radius>0.040000000000000001</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__left_caster_plate_collision_7'>
+        <pose>-0.747 0.26000000000000001 0.26500000000000001 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.17999999999999999 0.17999999999999999 0.01</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__right_caster_plate_collision_8'>
+        <pose>-0.747 -0.26000000000000001 0.26500000000000001 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.17999999999999999 0.17999999999999999 0.01</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='base_footprint_fixed_joint_lump__base_block_visual'>
+        <pose>-0.025000000000000001 0 0.16200000000000001 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.20000000000000001 0.40000000000000002 0.14999999999999999</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0 0 1 1</diffuse>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__airy_back_visual_1'>
+        <pose>-0.87 0 0.247 0 -1.5707963267948966 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.059999999999999998</length>
+            <radius>0.040000000000000001</radius>
+          </cylinder>
+        </geometry>
+        <material>
+          <diffuse>1 0 0 1</diffuse>
+          <ambient>1 0 0 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__airy_front_visual_2'>
+        <pose>0.050000000000000003 0 0.96200000000000008 3.1415926535897931 1.1415926535897938 3.1415926535897931</pose>
+        <geometry>
+          <cylinder>
+            <length>0.059999999999999998</length>
+            <radius>0.040000000000000001</radius>
+          </cylinder>
+        </geometry>
+        <material>
+          <diffuse>1 0 0 1</diffuse>
+          <ambient>1 0 0 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__base_box_visual_3'>
+        <pose>-0.55000000000000004 0 0.66200000000000003 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.80000000000000004 0.80000000000000004 0.69999999999999996</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0.625 0.625 0.625 1</diffuse>
+          <ambient>0.625 0.625 0.625 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__base_plate_visual_4'>
+        <pose>-0.5 0 0.28499999999999998 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.69999999999999996 0.80000000000000004 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0 0 1 1</diffuse>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__front_plate_visual_5'>
+        <pose>-0.050000000000000003 0 0.66200000000000003 0 1.4000000000000004 0</pose>
+        <geometry>
+          <box>
+            <size>0.90000000000000002 0.40000000000000002 0.049999999999999989</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0 0 1 1</diffuse>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__jt16_center_visual_6'>
+        <pose>-0.60699999999999998 0 0.187 3.1415926535897931 0.001592653589793114 3.1415926535897931</pose>
+        <geometry>
+          <cylinder>
+            <length>0.059999999999999998</length>
+            <radius>0.040000000000000001</radius>
+          </cylinder>
+        </geometry>
+        <material>
+          <diffuse>1 0 0 1</diffuse>
+          <ambient>1 0 0 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__left_caster_plate_visual_7'>
+        <pose>-0.747 0.26000000000000001 0.26500000000000001 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.17999999999999999 0.17999999999999999 0.01</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0.625 0.625 0.625 1</diffuse>
+          <ambient>0.625 0.625 0.625 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__right_caster_plate_visual_8'>
+        <pose>-0.747 -0.26000000000000001 0.26500000000000001 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.17999999999999999 0.17999999999999999 0.01</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0.625 0.625 0.625 1</diffuse>
+          <ambient>0.625 0.625 0.625 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='left_caster_wheel_joint' type='revolute'>
+      <pose relative_to='base_footprint'>-0.747 0.26000000000000001 0.13500000000000001 0 0 0</pose>
+      <parent>base_footprint</parent>
+      <child>left_caster_wheel</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='left_caster_wheel'>
+      <pose relative_to='left_caster_wheel_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0001</iyy>
+          <iyz>0</iyz>
+          <izz>0.0001</izz>
+        </inertia>
+      </inertial>
+      <collision name='left_caster_wheel_collision'>
+        <pose>0 0 0 1.5707959999999999 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.080000000000000002</length>
+            <radius>0.13</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='left_caster_wheel_visual'>
+        <pose>0 0 0 1.5707959999999999 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.080000000000000002</length>
+            <radius>0.13</radius>
+          </cylinder>
+        </geometry>
+        <material>
+          <diffuse>0 0 0 1</diffuse>
+          <ambient>0 0 0 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='left_wheel_joint' type='revolute'>
+      <pose relative_to='base_footprint'>0 0.317 0.16200000000000001 0 0 0</pose>
+      <parent>base_footprint</parent>
+      <child>left_wheel</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='left_wheel'>
+      <pose relative_to='left_wheel_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>8</mass>
+        <inertia>
+          <ixx>0.01</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.01</iyy>
+          <iyz>0</iyz>
+          <izz>0.01</izz>
+        </inertia>
+      </inertial>
+      <collision name='left_wheel_collision'>
+        <pose>0 0 0 1.5707959999999999 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.14999999999999999</length>
+            <radius>0.16200000000000001</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='left_wheel_visual'>
+        <pose>0 0 0 1.5707959999999999 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.14999999999999999</length>
+            <radius>0.16200000000000001</radius>
+          </cylinder>
+        </geometry>
+        <material>
+          <diffuse>0 0 0 1</diffuse>
+          <ambient>0 0 0 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='right_caster_wheel_joint' type='revolute'>
+      <pose relative_to='base_footprint'>-0.747 -0.26000000000000001 0.13500000000000001 0 0 0</pose>
+      <parent>base_footprint</parent>
+      <child>right_caster_wheel</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='right_caster_wheel'>
+      <pose relative_to='right_caster_wheel_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0001</iyy>
+          <iyz>0</iyz>
+          <izz>0.0001</izz>
+        </inertia>
+      </inertial>
+      <collision name='right_caster_wheel_collision'>
+        <pose>0 0 0 1.5707959999999999 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.080000000000000002</length>
+            <radius>0.13</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='right_caster_wheel_visual'>
+        <pose>0 0 0 1.5707959999999999 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.080000000000000002</length>
+            <radius>0.13</radius>
+          </cylinder>
+        </geometry>
+        <material>
+          <diffuse>0 0 0 1</diffuse>
+          <ambient>0 0 0 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='right_wheel_joint' type='revolute'>
+      <pose relative_to='base_footprint'>0 -0.317 0.16200000000000001 0 0 0</pose>
+      <parent>base_footprint</parent>
+      <child>right_wheel</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='right_wheel'>
+      <pose relative_to='right_wheel_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>8</mass>
+        <inertia>
+          <ixx>0.01</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.01</iyy>
+          <iyz>0</iyz>
+          <izz>0.01</izz>
+        </inertia>
+      </inertial>
+      <collision name='right_wheel_collision'>
+        <pose>0 0 0 1.5707959999999999 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.14999999999999999</length>
+            <radius>0.16200000000000001</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='right_wheel_visual'>
+        <pose>0 0 0 1.5707959999999999 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.14999999999999999</length>
+            <radius>0.16200000000000001</radius>
+          </cylinder>
+        </geometry>
+        <material>
+          <diffuse>0 0 0 1</diffuse>
+          <ambient>0 0 0 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <frame name='airy_back_joint' attached_to='base_block'>
+      <pose>-0.87 0 0.085000000000000006 0 -1.5700000000005452 0</pose>
+    </frame>
+    <frame name='airy_back' attached_to='airy_back_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='airy_front_joint' attached_to='base_block'>
+      <pose>0.050000000000000003 0 0.80000000000000004 3.1415926535897931 1.1415926535897938 3.1415926535897931</pose>
+    </frame>
+    <frame name='airy_front' attached_to='airy_front_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='base_box_joint' attached_to='base_block'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='base_box' attached_to='base_box_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='base_plate_joint' attached_to='base_block'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='base_plate' attached_to='base_plate_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='front_plate_joint' attached_to='base_block'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='front_plate' attached_to='front_plate_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='jt16_center_joint' attached_to='base_block'>
+      <pose>-0.60699999999999998 0 0.025000000000000001 3.1415926535897931 0.001592653589793114 3.1415926535897931</pose>
+    </frame>
+    <frame name='jt16_center' attached_to='jt16_center_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='left_caster_plate_joint' attached_to='base_block'>
+      <pose>-0.747 0.26000000000000001 0.10299999999999999 0 0 0</pose>
+    </frame>
+    <frame name='left_caster_plate' attached_to='left_caster_plate_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='right_caster_plate_joint' attached_to='base_block'>
+      <pose>-0.747 -0.26000000000000001 0.10299999999999999 0 0 0</pose>
+    </frame>
+    <frame name='right_caster_plate' attached_to='right_caster_plate_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='base_block_joint' attached_to='base_footprint'>
+      <pose>0 0 0.16200000000000001 0 0 0</pose>
+    </frame>
+    <frame name='base_block' attached_to='base_block_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+  </model>
+</sdf>

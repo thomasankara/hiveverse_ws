@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<sdf version="1.10">
+  <world name="hive_test">
+    <include>
+      <uri>file:///home/thomas24/.gz/fuel/openrobotics/models/ground_plane/model.sdf</uri>
+    </include>
+    <include>
+      <uri>file:///home/thomas24/.gz/fuel/openrobotics/models/sun/model.sdf</uri>
+    </include>
+  </world>
+</sdf>

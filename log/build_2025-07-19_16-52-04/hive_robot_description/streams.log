@@ -1,0 +1,22 @@
+[0.007s] Invoking command in '/home/thomas24/hiveverse_ws/build/hive_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas24/hiveverse_ws/src/hive_robot_description -DCMAKE_INSTALL_PREFIX=/home/thomas24/hiveverse_ws/install/hive_robot_description
+[0.017s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.170s] -- Found xacro: 2.0.13 (/opt/ros/jazzy/share/xacro/cmake)
+[0.179s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[0.179s]   By not providing "Findros_gz_sim.cmake" in CMAKE_MODULE_PATH this project
+[0.179s]   has asked CMake to find a package configuration file provided by
+[0.179s]   "ros_gz_sim", but CMake did not find one.
+[0.179s] 
+[0.180s]   Could not find a package configuration file provided by "ros_gz_sim" with
+[0.180s]   any of the following names:
+[0.180s] 
+[0.180s]     ros_gz_simConfig.cmake
+[0.180s]     ros_gz_sim-config.cmake
+[0.180s] 
+[0.180s]   Add the installation prefix of "ros_gz_sim" to CMAKE_PREFIX_PATH or set
+[0.180s]   "ros_gz_sim_DIR" to a directory containing one of the above files.  If
+[0.180s]   "ros_gz_sim" provides a separate development package or SDK, be sure it has
+[0.180s]   been installed.
+[0.180s] 
+[0.180s] -- Configuring incomplete, errors occurred!
+[0.180s] [0m
+[0.182s] Invoked command in '/home/thomas24/hiveverse_ws/build/hive_robot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas24/hiveverse_ws/src/hive_robot_description -DCMAKE_INSTALL_PREFIX=/home/thomas24/hiveverse_ws/install/hive_robot_description

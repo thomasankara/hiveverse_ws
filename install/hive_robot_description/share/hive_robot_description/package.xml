@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>hive_robot_description</name>
+  <version>0.0.1</version>
+  <description>The hive_robot_description package</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <!-- Dépendances de construction et d'exécution -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>ros_gz</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+
+
+  <exec_depend>ament_lint_auto</exec_depend>
+  <exec_depend>ament_lint_common</exec_depend>
+
+  <!-- <exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  
+   Dépendance pour les messages ROS utilisés 
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend> -->
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

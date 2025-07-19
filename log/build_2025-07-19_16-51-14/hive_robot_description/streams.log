@@ -1,0 +1,34 @@
+[0.007s] Invoking command in '/home/thomas24/hiveverse_ws/build/hive_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas24/hiveverse_ws/src/hive_robot_description -DCMAKE_INSTALL_PREFIX=/home/thomas24/hiveverse_ws/install/hive_robot_description
+[0.048s] -- The C compiler identification is GNU 13.3.0
+[0.089s] -- The CXX compiler identification is GNU 13.3.0
+[0.101s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.172s] -- Detecting C compile features - done
+[0.179s] -- Detecting CXX compiler ABI info
+[0.251s] -- Detecting CXX compiler ABI info - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.257s] -- Detecting CXX compile features
+[0.258s] -- Detecting CXX compile features - done
+[0.260s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.371s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.450s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[0.450s]   By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has
+[0.450s]   asked CMake to find a package configuration file provided by "xacro", but
+[0.450s]   CMake did not find one.
+[0.450s] 
+[0.450s]   Could not find a package configuration file provided by "xacro" with any of
+[0.450s]   the following names:
+[0.450s] 
+[0.451s]     xacroConfig.cmake
+[0.451s]     xacro-config.cmake
+[0.451s] 
+[0.451s]   Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set
+[0.451s]   "xacro_DIR" to a directory containing one of the above files.  If "xacro"
+[0.451s]   provides a separate development package or SDK, be sure it has been
+[0.451s]   installed.
+[0.451s] 
+[0.451s] [0m
+[0.451s] -- Configuring incomplete, errors occurred!
+[0.454s] Invoked command in '/home/thomas24/hiveverse_ws/build/hive_robot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas24/hiveverse_ws/src/hive_robot_description -DCMAKE_INSTALL_PREFIX=/home/thomas24/hiveverse_ws/install/hive_robot_description
