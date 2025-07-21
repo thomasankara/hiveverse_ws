@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<robot name="mk5-200" xmlns:xacro="http://ros.org/wiki/xacro">
+<robot name="$(arg robot_ns)" xmlns:xacro="http://ros.org/wiki/xacro">
+    <xacro:arg name="robot_ns" default="robot1"/>
 
   <!-- ========= PARAMÈTRES ========= -->
   <xacro:property name="base_length" value="0.2"/>
@@ -51,7 +52,7 @@
       <inertia ixx="0.76" ixy="0" ixz="0" iyy="0.26" iyz="0" izz="0.833"/>
     </inertial>
 
-    <!-- ========= GRANDE PLAQUE (directement sous base_link) ========= -->
+    <!-- Grande plaque -->
     <visual>
       <geometry>
         <box size="0.7 0.8 0.02"/>
@@ -66,7 +67,7 @@
       <origin xyz="-0.5 0 ${caster_radius * 2 + caster_plate_th / 2 - wheel_radius + 0.02}"/>
     </collision>
 
-    <!-- ========= BOITE (directement sous base_link) ========= -->
+    <!-- Boite -->
     <visual>
       <geometry>
         <box size="0.8 0.8 0.7"/>
@@ -81,7 +82,7 @@
       <origin xyz="-0.55 0 0.5"/>
     </collision>
 
-    <!-- ========= PLAQUE AVANT (directement sous base_link) ========= -->
+    <!-- Plaque avant -->
     <visual>
       <geometry>
         <box size="0.9 ${base_width} ${base_height - 0.1}"/>
@@ -243,5 +244,6 @@
   <xacro:lidar_sensor name="airy_back"    origin_x="-0.870" origin_y="0.0" origin_z="0.085" origin_rpy="0 -1.57 0"/>
 
   <xacro:include filename="$(find hive_robot_description)/model/mk5_200.gazebo"/>
+  <xacro:add_gazebo_tags robot_ns="$(arg robot_ns)"/>
 
 </robot>

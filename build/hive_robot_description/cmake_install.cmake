@@ -46,6 +46,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hive_robot_description" TYPE DIRECTORY FILES
     "/home/thomas24/hiveverse_ws/src/hive_robot_description/launch"
     "/home/thomas24/hiveverse_ws/src/hive_robot_description/model"
+    "/home/thomas24/hiveverse_ws/src/hive_robot_description/worlds"
     "/home/thomas24/hiveverse_ws/src/hive_robot_description/parameters"
     )
 endif()

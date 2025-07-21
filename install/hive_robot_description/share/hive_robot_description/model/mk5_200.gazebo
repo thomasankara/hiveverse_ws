@@ -1,204 +1,182 @@
 <?xml version="1.0"?>
-<robot name="mk5-200">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-    
-    <!-- Base Link -->
+  <!--
+    Macro : Ajoute toutes les balises Gazebo nécessaires
+    Paramètre : robot_ns (ex : robot1, robot2, ...)
+    Tout topic sensor ou plugin DOIT commencer par "/${robot_ns}/..." pour le multi-robot.
+    Les noms de links/joints N'ONT PAS le préfixe robot_ns ici !
+  -->
+  <xacro:macro name="add_gazebo_tags" params="robot_ns">
+
+    <!-- ======= FRICTION (au sol/roues/roulettes) ======= -->
     <gazebo reference="base_link">
-        <mu1>0.2</mu1>
-        <mu2>0.2</mu2>
-        <material>Gazebo/Black</material>
+      <mu1>0.2</mu1>
+      <mu2>0.2</mu2>
     </gazebo>
-    
-    <!-- Left Drive Wheel -->
+
     <gazebo reference="left_wheel_link">
-        <mu1>0.9</mu1>
-        <mu2>0.9</mu2>
-        <material>Gazebo/Black</material>
+      <mu1>0.9</mu1>
+      <mu2>0.9</mu2>
     </gazebo>
-    
-    <!-- Right Drive Wheel -->
+
     <gazebo reference="right_wheel_link">
-        <mu1>0.9</mu1>
-        <mu2>0.9</mu2>
-        <material>Gazebo/Black</material>
+      <mu1>0.9</mu1>
+      <mu2>0.9</mu2>
     </gazebo>
-    
-    <!-- Left Caster Plate -->
+
     <gazebo reference="left_caster_plate_link">
-        <mu1>0.2</mu1>
-        <mu2>0.2</mu2>
-        <material>Gazebo/Grey</material>
+      <mu1>0.2</mu1>
+      <mu2>0.2</mu2>
     </gazebo>
-    
-    <!-- Right Caster Plate -->
+
     <gazebo reference="right_caster_plate_link">
-        <mu1>0.2</mu1>
-        <mu2>0.2</mu2>
-        <material>Gazebo/Grey</material>
+      <mu1>0.2</mu1>
+      <mu2>0.2</mu2>
     </gazebo>
-    
-    <!-- Left Caster Wheel -->
+
     <gazebo reference="left_caster_wheel_link">
-        <mu1>0.9</mu1>
-        <mu2>0.9</mu2>
-        <material>Gazebo/Black</material>
+      <mu1>0.9</mu1>
+      <mu2>0.9</mu2>
     </gazebo>
-    
-    <!-- Right Caster Wheel -->
+
     <gazebo reference="right_caster_wheel_link">
-        <mu1>0.9</mu1>
-        <mu2>0.9</mu2>
-        <material>Gazebo/Black</material>
+      <mu1>0.9</mu1>
+      <mu2>0.9</mu2>
     </gazebo>
-    
-    <!-- Airy Front Lidar Sensor -->
-    <!-- <gazebo reference="airy_front_link">
-        <mu1>0.2</mu1>
-        <mu2>0.2</mu2>
-        <material>Gazebo/Red</material>
-    </gazebo> -->
 
-<gazebo reference="airy_front_link">
-    <sensor name="gpu_lidar3d_airy_front" type="gpu_lidar">
-    <pose relative_to="airy_front_link">0 0 0 0 0 0</pose>
-    <topic>airy_front_pc2</topic>
-    <update_rate>10</update_rate>
-    <lidar>
-      <scan>
-        <horizontal>
-          <samples>360</samples>
-          <resolution>1</resolution>
-          <min_angle>-3.1416</min_angle>    <!-- -180° -->
-          <max_angle>3.1416</max_angle>     <!-- +180° -->
-        </horizontal>
-        <vertical>
-          <samples>32</samples>             <!-- nombre de faisceaux -->
-          <resolution>1</resolution>
-          <min_angle>0.0</min_angle>    <!-- -90° (vers le bas) -->
-          <max_angle>1.5708</max_angle>     <!-- +90° (vers le haut) -->
-        </vertical>
-      </scan>
-      <range>
-        <min>0.1</min>
-        <max>30.0</max>
-        <resolution>0.01</resolution>
-      </range>
-      <noise type="gaussian">
-        <mean>0.0</mean>
-        <stddev>0.01</stddev>
-      </noise>
-    </lidar>
-    <always_on>1</always_on>
-    <visualize>1</visualize>
-  </sensor>
-</gazebo>
-    
-        <!-- JT16 center Lidar Sensor -->
-<gazebo reference="jt16_center_link">
-    <sensor name="gpu_lidar3d_jt16_center" type="gpu_lidar">
-    <pose relative_to="jt16_center_link">0 0 0 0 0 0</pose>
-    <topic>jt16_center_pc2</topic>
-    <update_rate>10</update_rate>
-    <lidar>
-      <scan>
-        <horizontal>
-          <samples>360</samples>
-          <resolution>1</resolution>
-          <min_angle>-3.24</min_angle>    <!-- -180° -->
-          <max_angle>3.24</max_angle>     <!-- +180° -->
-        </horizontal>
-        <vertical>
-          <samples>32</samples>             <!-- nombre de faisceaux -->
-          <resolution>1</resolution>
-          <min_angle>0.0</min_angle>    <!-- -90° (vers le bas) -->
-          <max_angle>0.6981</max_angle>     <!-- +90° (vers le haut) -->
-        </vertical>
-      </scan>
-      <range>
-        <min>0.1</min>
-        <max>30.0</max>
-        <resolution>0.01</resolution>
-      </range>
-      <noise type="gaussian">
-        <mean>0.0</mean>
-        <stddev>0.01</stddev>
-      </noise>
-    </lidar>
-    <always_on>1</always_on>
-    <visualize>1</visualize>
-  </sensor>
-</gazebo>
-    
-    <!-- Airy Back Lidar Sensor -->
-<gazebo reference="airy_back_link">
-    <sensor name="gpu_lidar3d_airy_back" type="gpu_lidar">
-    <pose relative_to="airy_back_link">0 0 0 0 0 0</pose>
-    <topic>airy_back_pc2</topic>
-    <update_rate>10</update_rate>
-    <lidar>
-      <scan>
-        <horizontal>
-          <samples>360</samples>
-          <resolution>1</resolution>
-          <min_angle>-3.24</min_angle>    <!-- -180° -->
-          <max_angle>3.24</max_angle>     <!-- +180° -->
-        </horizontal>
-        <vertical>
-          <samples>32</samples>             <!-- nombre de faisceaux -->
-          <resolution>1</resolution>
-          <min_angle>0.0</min_angle>    <!-- -90° (vers le bas) -->
-          <max_angle>1.5708</max_angle>     <!-- +90° (vers le haut) -->
-        </vertical>
-      </scan>
-      <range>
-        <min>0.1</min>
-        <max>30.0</max>
-        <resolution>0.01</resolution>
-      </range>
-      <noise type="gaussian">
-        <mean>0.0</mean>
-        <stddev>0.01</stddev>
-      </noise>
-    </lidar>
-    <always_on>1</always_on>
-    <visualize>1</visualize>
-  </sensor>
-</gazebo>
+    <!-- ======= LIDAR AVANT ======= -->
+    <gazebo reference="airy_front_link">
+      <sensor name="gpu_lidar3d_airy_front" type="gpu_lidar">
+        <pose relative_to="airy_front_link">0 0 0 0 0 0</pose>
+        <!-- TOPIC ABSOLU (unique multi-robot) -->
+        <topic>/${robot_ns}/airy_front_pc2</topic>
+        <update_rate>10</update_rate>
+        <lidar>
+          <scan>
+            <horizontal>
+              <samples>360</samples>
+              <resolution>1</resolution>
+              <min_angle>-3.1416</min_angle>
+              <max_angle>3.1416</max_angle>
+            </horizontal>
+            <vertical>
+              <samples>32</samples>
+              <resolution>1</resolution>
+              <min_angle>0.0</min_angle>
+              <max_angle>1.5708</max_angle>
+            </vertical>
+          </scan>
+          <range>
+            <min>0.1</min>
+            <max>30.0</max>
+            <resolution>0.01</resolution>
+          </range>
+          <noise>
+            <mean>0.0</mean>
+            <stddev>0.01</stddev>
+          </noise>
+        </lidar>
+        <always_on>1</always_on>
+        <visualize>1</visualize>
+      </sensor>
+    </gazebo>
 
+    <!-- ======= LIDAR CENTRAL ======= -->
+    <gazebo reference="jt16_center_link">
+      <sensor name="gpu_lidar3d_jt16_center" type="gpu_lidar">
+        <pose relative_to="jt16_center_link">0 0 0 0 0 0</pose>
+        <topic>/${robot_ns}/jt16_center_pc2</topic>
+        <update_rate>10</update_rate>
+        <lidar>
+          <scan>
+            <horizontal>
+              <samples>360</samples>
+              <resolution>1</resolution>
+              <min_angle>-3.24</min_angle>
+              <max_angle>3.24</max_angle>
+            </horizontal>
+            <vertical>
+              <samples>32</samples>
+              <resolution>1</resolution>
+              <min_angle>0.0</min_angle>
+              <max_angle>0.6981</max_angle>
+            </vertical>
+          </scan>
+          <range>
+            <min>0.1</min>
+            <max>30.0</max>
+            <resolution>0.01</resolution>
+          </range>
+          <noise>
+            <mean>0.0</mean>
+            <stddev>0.01</stddev>
+          </noise>
+        </lidar>
+        <always_on>1</always_on>
+        <visualize>1</visualize>
+      </sensor>
+    </gazebo>
 
-    
- <gazebo>
+    <!-- ======= LIDAR ARRIÈRE ======= -->
+    <gazebo reference="airy_back_link">
+      <sensor name="gpu_lidar3d_airy_back" type="gpu_lidar">
+        <pose relative_to="airy_back_link">0 0 0 0 0 0</pose>
+        <topic>/${robot_ns}/airy_back_pc2</topic>
+        <update_rate>10</update_rate>
+        <lidar>
+          <scan>
+            <horizontal>
+              <samples>360</samples>
+              <resolution>1</resolution>
+              <min_angle>-3.24</min_angle>
+              <max_angle>3.24</max_angle>
+            </horizontal>
+            <vertical>
+              <samples>32</samples>
+              <resolution>1</resolution>
+              <min_angle>0.0</min_angle>
+              <max_angle>1.5708</max_angle>
+            </vertical>
+          </scan>
+          <range>
+            <min>0.1</min>
+            <max>30.0</max>
+            <resolution>0.01</resolution>
+          </range>
+          <noise>
+            <mean>0.0</mean>
+            <stddev>0.01</stddev>
+          </noise>
+        </lidar>
+        <always_on>1</always_on>
+        <visualize>1</visualize>
+      </sensor>
+    </gazebo>
 
-    <plugin filename="gz-sim-diff-drive-system" name="gz::sim::v8::systems::DiffDrive">
+    <!-- ======= Plugins globaux GAZEBO ======= -->
+    <gazebo>
+      <plugin filename="gz-sim-diff-drive-system" name="gz::sim::v8::systems::DiffDrive">
         <wheel_separation>0.634</wheel_separation>
         <wheel_radius>0.162</wheel_radius>
-    
         <left_joint>left_wheel_joint</left_joint>
         <right_joint>right_wheel_joint</right_joint>
-    
         <max_linear_acceleration>10</max_linear_acceleration>
-    
-        
-        <topic>cmd_vel</topic>
-        <tf_topic>/tf</tf_topic>
-        <odom_topic>odom</odom_topic>
+        <!-- Topic ABSOLU multi-robot ! -->
+        <topic>/${robot_ns}/cmd_vel</topic>
+        <tf_topic>/${robot_ns}/tf</tf_topic>
+        <odom_topic>/${robot_ns}/odom</odom_topic>
         <frame_id>odom</frame_id>
-        <child_frame_id>bsae_footprint</child_frame_id>
+        <child_frame_id>base_footprint</child_frame_id>
         <odom_publisher_frequency>30</odom_publisher_frequency>
-    
-    </plugin>
+      </plugin>
 
-    <plugin filename="gz-sim-joint-state-publisher-system"
-        name="gz::sim::systems::JointStatePublisher">
-        <topic>joint_states</topic>
+      <plugin filename="gz-sim-joint-state-publisher-system"
+              name="gz::sim::systems::JointStatePublisher">
+        <topic>/${robot_ns}/joint_states</topic>
         <joint_name>left_wheel_joint</joint_name>
         <joint_name>right_wheel_joint</joint_name>
-    </plugin>
-
-    <plugin filename="gz-sim-sensors-system"
-        name="gz::sim::v8::systems::Sensors">
-        <render_engine>ogre2</render_engine>
-    </plugin>
-
-</gazebo>
+      </plugin>
+    </gazebo>
+  </xacro:macro>
 </robot>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<robot name="mk5-200" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:arg name="robot_ns" default="robot1"/>
+  <link name="$(arg robot_ns)_base_footprint"/>
+</robot>
