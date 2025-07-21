@@ -197,6 +197,80 @@ hive_robot_description_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hive_robot_description_uninstall.dir/build.make CMakeFiles/hive_robot_description_uninstall.dir/build
 .PHONY : hive_robot_description_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named multi_odom_tf_broadcaster
+
+# Build rule for target.
+multi_odom_tf_broadcaster: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 multi_odom_tf_broadcaster
+.PHONY : multi_odom_tf_broadcaster
+
+# fast build rule for target.
+multi_odom_tf_broadcaster/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multi_odom_tf_broadcaster.dir/build.make CMakeFiles/multi_odom_tf_broadcaster.dir/build
+.PHONY : multi_odom_tf_broadcaster/fast
+
+#=============================================================================
+# Target rules for targets named lidar_frame_mapper
+
+# Build rule for target.
+lidar_frame_mapper: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lidar_frame_mapper
+.PHONY : lidar_frame_mapper
+
+# fast build rule for target.
+lidar_frame_mapper/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_frame_mapper.dir/build.make CMakeFiles/lidar_frame_mapper.dir/build
+.PHONY : lidar_frame_mapper/fast
+
+src/lidar_frame_mapper.o: src/lidar_frame_mapper.cpp.o
+.PHONY : src/lidar_frame_mapper.o
+
+# target to build an object file
+src/lidar_frame_mapper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_frame_mapper.dir/build.make CMakeFiles/lidar_frame_mapper.dir/src/lidar_frame_mapper.cpp.o
+.PHONY : src/lidar_frame_mapper.cpp.o
+
+src/lidar_frame_mapper.i: src/lidar_frame_mapper.cpp.i
+.PHONY : src/lidar_frame_mapper.i
+
+# target to preprocess a source file
+src/lidar_frame_mapper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_frame_mapper.dir/build.make CMakeFiles/lidar_frame_mapper.dir/src/lidar_frame_mapper.cpp.i
+.PHONY : src/lidar_frame_mapper.cpp.i
+
+src/lidar_frame_mapper.s: src/lidar_frame_mapper.cpp.s
+.PHONY : src/lidar_frame_mapper.s
+
+# target to generate assembly for a file
+src/lidar_frame_mapper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_frame_mapper.dir/build.make CMakeFiles/lidar_frame_mapper.dir/src/lidar_frame_mapper.cpp.s
+.PHONY : src/lidar_frame_mapper.cpp.s
+
+src/multi_odom_tf_broadcaster.o: src/multi_odom_tf_broadcaster.cpp.o
+.PHONY : src/multi_odom_tf_broadcaster.o
+
+# target to build an object file
+src/multi_odom_tf_broadcaster.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multi_odom_tf_broadcaster.dir/build.make CMakeFiles/multi_odom_tf_broadcaster.dir/src/multi_odom_tf_broadcaster.cpp.o
+.PHONY : src/multi_odom_tf_broadcaster.cpp.o
+
+src/multi_odom_tf_broadcaster.i: src/multi_odom_tf_broadcaster.cpp.i
+.PHONY : src/multi_odom_tf_broadcaster.i
+
+# target to preprocess a source file
+src/multi_odom_tf_broadcaster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multi_odom_tf_broadcaster.dir/build.make CMakeFiles/multi_odom_tf_broadcaster.dir/src/multi_odom_tf_broadcaster.cpp.i
+.PHONY : src/multi_odom_tf_broadcaster.cpp.i
+
+src/multi_odom_tf_broadcaster.s: src/multi_odom_tf_broadcaster.cpp.s
+.PHONY : src/multi_odom_tf_broadcaster.s
+
+# target to generate assembly for a file
+src/multi_odom_tf_broadcaster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multi_odom_tf_broadcaster.dir/build.make CMakeFiles/multi_odom_tf_broadcaster.dir/src/multi_odom_tf_broadcaster.cpp.s
+.PHONY : src/multi_odom_tf_broadcaster.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +286,14 @@ help:
 	@echo "... test"
 	@echo "... hive_robot_description_uninstall"
 	@echo "... uninstall"
+	@echo "... lidar_frame_mapper"
+	@echo "... multi_odom_tf_broadcaster"
+	@echo "... src/lidar_frame_mapper.o"
+	@echo "... src/lidar_frame_mapper.i"
+	@echo "... src/lidar_frame_mapper.s"
+	@echo "... src/multi_odom_tf_broadcaster.o"
+	@echo "... src/multi_odom_tf_broadcaster.i"
+	@echo "... src/multi_odom_tf_broadcaster.s"
 .PHONY : help
 
 

@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.000204] (hive_robot_description) JobQueued: {'identifier': 'hive_robot_description', 'dependencies': OrderedDict()}
+[0.000552] (hive_robot_description) JobStarted: {'identifier': 'hive_robot_description'}
+[0.006379] (hive_robot_description) JobProgress: {'identifier': 'hive_robot_description', 'progress': 'cmake'}
+[0.007061] (hive_robot_description) JobProgress: {'identifier': 'hive_robot_description', 'progress': 'build'}
+[0.007856] (hive_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thomas24/hiveverse_ws/build/hive_robot_description', '--', '-j16', '-l16'], 'cwd': '/home/thomas24/hiveverse_ws/build/hive_robot_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'thomas24', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/thomas24', 'OLDPWD': '/home/thomas24', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2714', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/thomas24/hiveverse_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'thomas24', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'thomas24', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/thomas24/.local/bin', 'SESSION_MANAGER': 'local/thomas24-Legion-Pro-5-16ARX8:@/tmp/.ICE-unix/2670,unix/thomas24-Legion-Pro-5-16ARX8:/tmp/.ICE-unix/2670', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f43b6b41_a5bb_40b6_8afb_06a4cfa677e4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.122', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/thomas24/hiveverse_ws/build/hive_robot_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.061900] (hive_robot_description) StdoutLine: {'line': b'[ 50%] Built target lidar_frame_mapper\n'}
+[0.066253] (hive_robot_description) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/multi_odom_tf_broadcaster.dir/src/multi_odom_tf_broadcaster.cpp.o\x1b[0m\n'}
+[0.099933] (-) TimerEvent: {}
+[0.200298] (-) TimerEvent: {}
+[0.300643] (-) TimerEvent: {}
+[0.400976] (-) TimerEvent: {}
+[0.501291] (-) TimerEvent: {}
+[0.601591] (-) TimerEvent: {}
+[0.701899] (-) TimerEvent: {}
+[0.802238] (-) TimerEvent: {}
+[0.902630] (-) TimerEvent: {}
+[1.003045] (-) TimerEvent: {}
+[1.103381] (-) TimerEvent: {}
+[1.203678] (-) TimerEvent: {}
+[1.304007] (-) TimerEvent: {}
+[1.404340] (-) TimerEvent: {}
+[1.504639] (-) TimerEvent: {}
+[1.604933] (-) TimerEvent: {}
+[1.705260] (-) TimerEvent: {}
+[1.805566] (-) TimerEvent: {}
+[1.905883] (-) TimerEvent: {}
+[2.006190] (-) TimerEvent: {}
+[2.106495] (-) TimerEvent: {}
+[2.206748] (-) TimerEvent: {}
+[2.307055] (-) TimerEvent: {}
+[2.407412] (-) TimerEvent: {}
+[2.507717] (-) TimerEvent: {}
+[2.608011] (-) TimerEvent: {}
+[2.708351] (-) TimerEvent: {}
+[2.808735] (-) TimerEvent: {}
+[2.909136] (-) TimerEvent: {}
+[3.009399] (-) TimerEvent: {}
+[3.109782] (-) TimerEvent: {}
+[3.210124] (-) TimerEvent: {}
+[3.310375] (-) TimerEvent: {}
+[3.410675] (-) TimerEvent: {}
+[3.511112] (-) TimerEvent: {}
+[3.611524] (-) TimerEvent: {}
+[3.711807] (-) TimerEvent: {}
+[3.812085] (-) TimerEvent: {}
+[3.912371] (-) TimerEvent: {}
+[4.012656] (-) TimerEvent: {}
+[4.112950] (-) TimerEvent: {}
+[4.213234] (-) TimerEvent: {}
+[4.313522] (-) TimerEvent: {}
+[4.413730] (-) TimerEvent: {}
+[4.513996] (-) TimerEvent: {}
+[4.614299] (-) TimerEvent: {}
+[4.714548] (-) TimerEvent: {}
+[4.814879] (-) TimerEvent: {}
+[4.915118] (-) TimerEvent: {}
+[5.015432] (-) TimerEvent: {}
+[5.115721] (-) TimerEvent: {}
+[5.215997] (-) TimerEvent: {}
+[5.316361] (-) TimerEvent: {}
+[5.416830] (-) TimerEvent: {}
+[5.517158] (-) TimerEvent: {}
+[5.617409] (-) TimerEvent: {}
+[5.717657] (-) TimerEvent: {}
+[5.817921] (-) TimerEvent: {}
+[5.918198] (-) TimerEvent: {}
+[6.018458] (-) TimerEvent: {}
+[6.118686] (-) TimerEvent: {}
+[6.219120] (-) TimerEvent: {}
+[6.319519] (-) TimerEvent: {}
+[6.419763] (-) TimerEvent: {}
+[6.520022] (-) TimerEvent: {}
+[6.620294] (-) TimerEvent: {}
+[6.720544] (-) TimerEvent: {}
+[6.820805] (-) TimerEvent: {}
+[6.921052] (-) TimerEvent: {}
+[7.021307] (-) TimerEvent: {}
+[7.121537] (-) TimerEvent: {}
+[7.221848] (-) TimerEvent: {}
+[7.322118] (-) TimerEvent: {}
+[7.422365] (-) TimerEvent: {}
+[7.501426] (hive_robot_description) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable multi_odom_tf_broadcaster\x1b[0m\n'}
+[7.522561] (-) TimerEvent: {}
+[7.622986] (-) TimerEvent: {}
+[7.723291] (-) TimerEvent: {}
+[7.808701] (hive_robot_description) StdoutLine: {'line': b'[100%] Built target multi_odom_tf_broadcaster\n'}
+[7.822599] (hive_robot_description) CommandEnded: {'returncode': 0}
+[7.823119] (hive_robot_description) JobProgress: {'identifier': 'hive_robot_description', 'progress': 'install'}
+[7.823356] (-) TimerEvent: {}
+[7.832809] (hive_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thomas24/hiveverse_ws/build/hive_robot_description'], 'cwd': '/home/thomas24/hiveverse_ws/build/hive_robot_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'thomas24', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/thomas24', 'OLDPWD': '/home/thomas24', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2714', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/thomas24/hiveverse_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'thomas24', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'thomas24', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/thomas24/.local/bin', 'SESSION_MANAGER': 'local/thomas24-Legion-Pro-5-16ARX8:@/tmp/.ICE-unix/2670,unix/thomas24-Legion-Pro-5-16ARX8:/tmp/.ICE-unix/2670', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f43b6b41_a5bb_40b6_8afb_06a4cfa677e4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.122', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/thomas24/hiveverse_ws/build/hive_robot_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.841907] (hive_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.842405] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch\n'}
+[7.842538] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/view_model.launch.py\n'}
+[7.842675] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/publish_static_robot.launch.py\n'}
+[7.842742] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/gazebo_model.launch.py\n'}
+[7.842905] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/multi_robot_spawn.launch.py\n'}
+[7.842972] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/spawn_mk5_200.launch.py\n'}
+[7.843024] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/hive_test_launch.py\n'}
+[7.843074] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/spawn_gz.launch.py\n'}
+[7.843124] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/mono_robot_spawn.launch.py\n'}
+[7.843172] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model\n'}
+[7.843223] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model/mk5_200.gazebo\n'}
+[7.843273] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model/robot_pink.urdf\n'}
+[7.843321] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model/mk5_200.urdf.xacro\n'}
+[7.843371] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model/caca.urdf.xacro\n'}
+[7.843418] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model/bleu_robot.urdf\n'}
+[7.843464] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model/mk5_200\n'}
+[7.843526] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model/mk5_200/model.sdf\n'}
+[7.843575] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model/mk5_200/model.config\n'}
+[7.843622] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/worlds\n'}
+[7.843679] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/worlds/hive_empty_world.world.sdf\n'}
+[7.843754] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/worlds/merde.sdf\n'}
+[7.843816] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/worlds/hive_test.world.sdf\n'}
+[7.843893] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/parameters\n'}
+[7.843968] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/parameters/bridge_parameters.yaml\n'}
+[7.844037] (hive_robot_description) StdoutLine: {'line': b'-- Installing: /home/thomas24/hiveverse_ws/install/hive_robot_description/lib/hive_robot_description/multi_odom_tf_broadcaster\n'}
+[7.848356] (hive_robot_description) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/thomas24/hiveverse_ws/install/hive_robot_description/lib/hive_robot_description/multi_odom_tf_broadcaster" to ""\n'}
+[7.848515] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/lib/hive_robot_description/lidar_frame_mapper\n'}
+[7.848647] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/ament_index/resource_index/package_run_dependencies/hive_robot_description\n'}
+[7.848755] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/ament_index/resource_index/parent_prefix_path/hive_robot_description\n'}
+[7.848829] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/environment/ament_prefix_path.sh\n'}
+[7.848950] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/environment/ament_prefix_path.dsv\n'}
+[7.849176] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/environment/path.sh\n'}
+[7.849307] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/environment/path.dsv\n'}
+[7.849459] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/local_setup.bash\n'}
+[7.849537] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/local_setup.sh\n'}
+[7.849598] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/local_setup.zsh\n'}
+[7.849657] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/local_setup.dsv\n'}
+[7.849711] (hive_robot_description) StdoutLine: {'line': b'-- Installing: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/package.dsv\n'}
+[7.849814] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/ament_index/resource_index/packages/hive_robot_description\n'}
+[7.849913] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/cmake/hive_robot_descriptionConfig.cmake\n'}
+[7.849997] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/cmake/hive_robot_descriptionConfig-version.cmake\n'}
+[7.850059] (hive_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/package.xml\n'}
+[7.851631] (hive_robot_description) CommandEnded: {'returncode': 0}
+[7.862517] (hive_robot_description) JobEnded: {'identifier': 'hive_robot_description', 'rc': 0}
+[7.863089] (-) EventReactorShutdown: {}

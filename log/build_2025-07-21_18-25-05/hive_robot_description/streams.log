@@ -1,0 +1,12 @@
+[0.008s] Invoking command in '/home/thomas24/hiveverse_ws/build/hive_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas24/hiveverse_ws/build/hive_robot_description -- -j16 -l16
+[0.029s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.183s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.183s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.183s]   before
+[0.183s] Call Stack (most recent call first):
+[0.183s]   CMakeLists.txt:20 (ament_target_dependencies)
+[0.183s] 
+[0.183s] [0m
+[0.183s] -- Configuring incomplete, errors occurred!
+[0.185s] gmake: *** [Makefile:226 : cmake_check_build_system] Erreur 1
+[0.187s] Invoked command in '/home/thomas24/hiveverse_ws/build/hive_robot_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas24/hiveverse_ws/build/hive_robot_description -- -j16 -l16

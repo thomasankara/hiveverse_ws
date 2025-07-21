@@ -22,21 +22,22 @@
   gz_type_name: "gz.msgs.Model"
   direction: GZ_TO_ROS
 
-- ros_topic_name: "/robot1/airy_front_pc2"
+# LIDARs robot1 (suffix _sim)
+- ros_topic_name: "/robot1/airy_front_pc2_sim"
   gz_topic_name: "/robot1/airy_front_pc2/points"
   ros_type_name: "sensor_msgs/msg/PointCloud2"
   gz_type_name: "gz.msgs.PointCloudPacked"
   direction: GZ_TO_ROS
   lazy: false
 
-- ros_topic_name: "/robot1/airy_back_pc2"
+- ros_topic_name: "/robot1/airy_back_pc2_sim"
   gz_topic_name: "/robot1/airy_back_pc2/points"
   ros_type_name: "sensor_msgs/msg/PointCloud2"
   gz_type_name: "gz.msgs.PointCloudPacked"
   direction: GZ_TO_ROS
   lazy: false
 
-- ros_topic_name: "/robot1/jt16_center_pc2"
+- ros_topic_name: "/robot1/jt16_center_pc2_sim"
   gz_topic_name: "/robot1/jt16_center_pc2/points"
   ros_type_name: "sensor_msgs/msg/PointCloud2"
   gz_type_name: "gz.msgs.PointCloudPacked"
@@ -67,21 +68,22 @@
   gz_type_name: "gz.msgs.Model"
   direction: GZ_TO_ROS
 
-- ros_topic_name: "/robot2/airy_front_pc2"
+# LIDARs robot2 (suffix _sim)
+- ros_topic_name: "/robot2/airy_front_pc2_sim"
   gz_topic_name: "/robot2/airy_front_pc2/points"
   ros_type_name: "sensor_msgs/msg/PointCloud2"
   gz_type_name: "gz.msgs.PointCloudPacked"
   direction: GZ_TO_ROS
   lazy: false
 
-- ros_topic_name: "/robot2/airy_back_pc2"
+- ros_topic_name: "/robot2/airy_back_pc2_sim"
   gz_topic_name: "/robot2/airy_back_pc2/points"
   ros_type_name: "sensor_msgs/msg/PointCloud2"
   gz_type_name: "gz.msgs.PointCloudPacked"
   direction: GZ_TO_ROS
   lazy: false
 
-- ros_topic_name: "/robot2/jt16_center_pc2"
+- ros_topic_name: "/robot2/jt16_center_pc2_sim"
   gz_topic_name: "/robot2/jt16_center_pc2/points"
   ros_type_name: "sensor_msgs/msg/PointCloud2"
   gz_type_name: "gz.msgs.PointCloudPacked"

@@ -1,0 +1,21 @@
+[0.008s] Invoking command in '/home/thomas24/hiveverse_ws/build/hive_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas24/hiveverse_ws/build/hive_robot_description -- -j16 -l16
+[0.031s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.199s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.218s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.223s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.239s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.281s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.282s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.335s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.381s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.421s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.421s]   ament_target_dependencies() the passed package name 'nav_msgs' was not
+[0.421s]   found before
+[0.421s] Call Stack (most recent call first):
+[0.421s]   CMakeLists.txt:23 (ament_target_dependencies)
+[0.421s] 
+[0.421s] [0m
+[0.421s] -- Configuring incomplete, errors occurred!
+[0.430s] gmake: *** [Makefile:267 : cmake_check_build_system] Erreur 1
+[0.432s] Invoked command in '/home/thomas24/hiveverse_ws/build/hive_robot_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas24/hiveverse_ws/build/hive_robot_description -- -j16 -l16

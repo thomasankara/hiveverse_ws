@@ -1,0 +1,14 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/lidar_frame_mapper.dir/src/lidar_frame_mapper.cpp.o[0m
+[01m[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/lidar_frame_mapper.cpp:[m[K In lambda function:
+[01m[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/lidar_frame_mapper.cpp:71:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kin_topic[m[K’ is not captured
+   71 |           std::cout << "\033[1;32m[frame_id] " << [01;31m[Kin_topic[m[K
+      |                                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/lidar_frame_mapper.cpp:54:25:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   54 |         [this, pub, base[01;36m[K][m[K(PointCloud2::SharedPtr msg)
+      |                         [01;36m[K^[m[K
+[01m[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/lidar_frame_mapper.cpp:48:19:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string in_topic[m[K’ declared here
+   48 |       std::string [01;36m[Kin_topic[m[K  = base + "_sim";
+      |                   [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lidar_frame_mapper.dir/build.make:76 : CMakeFiles/lidar_frame_mapper.dir/src/lidar_frame_mapper.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/lidar_frame_mapper.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

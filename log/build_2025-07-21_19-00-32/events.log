@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000684] (hive_robot_description) JobQueued: {'identifier': 'hive_robot_description', 'dependencies': OrderedDict()}
+[0.000720] (hive_robot_description) JobStarted: {'identifier': 'hive_robot_description'}
+[0.007011] (hive_robot_description) JobProgress: {'identifier': 'hive_robot_description', 'progress': 'cmake'}
+[0.007671] (hive_robot_description) JobProgress: {'identifier': 'hive_robot_description', 'progress': 'build'}
+[0.008099] (hive_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thomas24/hiveverse_ws/build/hive_robot_description', '--', '-j16', '-l16'], 'cwd': '/home/thomas24/hiveverse_ws/build/hive_robot_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'thomas24', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/thomas24', 'OLDPWD': '/home/thomas24', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2714', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/thomas24/hiveverse_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'thomas24', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'thomas24', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/thomas24/.local/bin', 'SESSION_MANAGER': 'local/thomas24-Legion-Pro-5-16ARX8:@/tmp/.ICE-unix/2670,unix/thomas24-Legion-Pro-5-16ARX8:/tmp/.ICE-unix/2670', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f43b6b41_a5bb_40b6_8afb_06a4cfa677e4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.122', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/thomas24/hiveverse_ws/build/hive_robot_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.066354] (hive_robot_description) StdoutLine: {'line': b'[ 50%] Built target lidar_frame_mapper\n'}
+[0.070913] (hive_robot_description) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/multi_odom_tf_broadcaster.dir/src/multi_odom_tf_broadcaster.cpp.o\x1b[0m\n'}
+[0.099905] (-) TimerEvent: {}
+[0.200197] (-) TimerEvent: {}
+[0.300496] (-) TimerEvent: {}
+[0.400796] (-) TimerEvent: {}
+[0.501046] (-) TimerEvent: {}
+[0.601407] (-) TimerEvent: {}
+[0.701755] (-) TimerEvent: {}
+[0.802095] (-) TimerEvent: {}
+[0.902381] (-) TimerEvent: {}
+[1.002713] (-) TimerEvent: {}
+[1.103002] (-) TimerEvent: {}
+[1.203302] (-) TimerEvent: {}
+[1.303592] (-) TimerEvent: {}
+[1.403969] (-) TimerEvent: {}
+[1.504280] (-) TimerEvent: {}
+[1.604672] (-) TimerEvent: {}
+[1.705014] (-) TimerEvent: {}
+[1.805355] (-) TimerEvent: {}
+[1.905652] (-) TimerEvent: {}
+[1.945067] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_odom_tf_broadcaster.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KOdomToTF::\x1b[01;32m\x1b[KOdomToTF\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.945519] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_odom_tf_broadcaster.cpp:21:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::QoS::QoS()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.945597] (hive_robot_description) StderrLine: {'line': b'   21 |   OdomToTF() : Node("odom_to_tf_broadcaster"\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[1.945677] (hive_robot_description) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.945735] (hive_robot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:33\x1b[m\x1b[K,\n'}
+[1.945796] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:45\x1b[m\x1b[K,\n'}
+[1.945848] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.945897] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.945945] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.945994] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.946042] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22\x1b[m\x1b[K,\n'}
+[1.946088] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38\x1b[m\x1b[K,\n'}
+[1.946139] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.946194] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.946241] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[1.946291] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_odom_tf_broadcaster.cpp:8\x1b[m\x1b[K:\n'}
+[1.946336] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:146:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::QoS::\x1b[01;32m\x1b[KQoS\x1b[m\x1b[K(size_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.946398] (hive_robot_description) StderrLine: {'line': b'  146 |   \x1b[01;36m\x1b[KQoS\x1b[m\x1b[K(size_t history_depth);  // NOLINT(runtime/explicit): conversion constructor\n'}
+[1.946448] (hive_robot_description) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.946494] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:146:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[1.946540] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:133:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::QoS::\x1b[01;32m\x1b[KQoS\x1b[m\x1b[K(const rclcpp::QoSInitialization&, const rmw_qos_profile_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.946589] (hive_robot_description) StderrLine: {'line': b'  133 |   \x1b[01;36m\x1b[KQoS\x1b[m\x1b[K(\n'}
+[1.946635] (hive_robot_description) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.946701] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:133:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[1.946780] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:115:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr rclcpp::QoS::\x1b[01;32m\x1b[KQoS\x1b[m\x1b[K(const rclcpp::QoS&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.946831] (hive_robot_description) StderrLine: {'line': b'  115 | class RCLCPP_PUBLIC \x1b[01;36m\x1b[KQoS\x1b[m\x1b[K\n'}
+[1.946879] (hive_robot_description) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.946925] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:115:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[1.946975] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:115:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr rclcpp::QoS::\x1b[01;32m\x1b[KQoS\x1b[m\x1b[K(rclcpp::QoS&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.947023] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:115:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[2.005765] (-) TimerEvent: {}
+[2.106037] (-) TimerEvent: {}
+[2.206355] (-) TimerEvent: {}
+[2.306757] (-) TimerEvent: {}
+[2.407069] (-) TimerEvent: {}
+[2.507491] (-) TimerEvent: {}
+[2.607756] (-) TimerEvent: {}
+[2.708072] (-) TimerEvent: {}
+[2.808350] (-) TimerEvent: {}
+[2.908616] (-) TimerEvent: {}
+[3.008894] (-) TimerEvent: {}
+[3.109234] (-) TimerEvent: {}
+[3.209656] (-) TimerEvent: {}
+[3.310012] (-) TimerEvent: {}
+[3.410369] (-) TimerEvent: {}
+[3.510822] (-) TimerEvent: {}
+[3.611173] (-) TimerEvent: {}
+[3.711504] (-) TimerEvent: {}
+[3.811756] (-) TimerEvent: {}
+[3.912045] (-) TimerEvent: {}
+[4.012324] (-) TimerEvent: {}
+[4.112631] (-) TimerEvent: {}
+[4.213010] (-) TimerEvent: {}
+[4.264374] (hive_robot_description) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/multi_odom_tf_broadcaster.dir/build.make:76 : CMakeFiles/multi_odom_tf_broadcaster.dir/src/multi_odom_tf_broadcaster.cpp.o] Erreur 1\n'}
+[4.264592] (hive_robot_description) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139 : CMakeFiles/multi_odom_tf_broadcaster.dir/all] Erreur 2\n'}
+[4.264811] (hive_robot_description) StderrLine: {'line': b'gmake: *** [Makefile:146 : all] Erreur 2\n'}
+[4.267971] (hive_robot_description) CommandEnded: {'returncode': 2}
+[4.274988] (hive_robot_description) JobEnded: {'identifier': 'hive_robot_description', 'rc': 2}
+[4.276312] (-) EventReactorShutdown: {}

@@ -16,6 +16,20 @@ install(
   DESTINATION share/${PROJECT_NAME}
 )
 
+find_package(rclcpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(tf2_ros REQUIRED)
+
+add_executable(multi_odom_tf_broadcaster src/multi_odom_tf_broadcaster.cpp)
+ament_target_dependencies(multi_odom_tf_broadcaster rclcpp nav_msgs tf2_ros)
+install(TARGETS multi_odom_tf_broadcaster DESTINATION lib/${PROJECT_NAME})
+
+add_executable(lidar_frame_mapper src/lidar_frame_mapper.cpp)
+ament_target_dependencies(lidar_frame_mapper rclcpp sensor_msgs)
+install(TARGETS lidar_frame_mapper DESTINATION lib/${PROJECT_NAME})
+
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

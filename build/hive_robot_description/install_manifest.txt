@@ -1,4 +1,5 @@
 /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/view_model.launch.py
+/home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/publish_static_robot.launch.py
 /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/gazebo_model.launch.py
 /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/multi_robot_spawn.launch.py
 /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/spawn_mk5_200.launch.py
@@ -16,6 +17,8 @@
 /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/worlds/merde.sdf
 /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/worlds/hive_test.world.sdf
 /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/parameters/bridge_parameters.yaml
+/home/thomas24/hiveverse_ws/install/hive_robot_description/lib/hive_robot_description/multi_odom_tf_broadcaster
+/home/thomas24/hiveverse_ws/install/hive_robot_description/lib/hive_robot_description/lidar_frame_mapper
 /home/thomas24/hiveverse_ws/install/hive_robot_description/share/ament_index/resource_index/package_run_dependencies/hive_robot_description
 /home/thomas24/hiveverse_ws/install/hive_robot_description/share/ament_index/resource_index/parent_prefix_path/hive_robot_description
 /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/environment/ament_prefix_path.sh

@@ -47,7 +47,7 @@
 
     <!-- ======= LIDAR AVANT ======= -->
     <gazebo reference="airy_front_link">
-      <sensor name="gpu_lidar3d_airy_front" type="gpu_lidar">
+      <sensor name="airy_front_link" type="gpu_lidar">
         <pose relative_to="airy_front_link">0 0 0 0 0 0</pose>
         <!-- TOPIC ABSOLU (unique multi-robot) -->
         <topic>/${robot_ns}/airy_front_pc2</topic>
@@ -84,7 +84,7 @@
 
     <!-- ======= LIDAR CENTRAL ======= -->
     <gazebo reference="jt16_center_link">
-      <sensor name="gpu_lidar3d_jt16_center" type="gpu_lidar">
+      <sensor name="jt16_center_link" type="gpu_lidar">
         <pose relative_to="jt16_center_link">0 0 0 0 0 0</pose>
         <topic>/${robot_ns}/jt16_center_pc2</topic>
         <update_rate>10</update_rate>
@@ -120,7 +120,7 @@
 
     <!-- ======= LIDAR ARRIÈRE ======= -->
     <gazebo reference="airy_back_link">
-      <sensor name="gpu_lidar3d_airy_back" type="gpu_lidar">
+      <sensor name="airy_back_link" type="gpu_lidar">
         <pose relative_to="airy_back_link">0 0 0 0 0 0</pose>
         <topic>/${robot_ns}/airy_back_pc2</topic>
         <update_rate>10</update_rate>
@@ -172,11 +172,21 @@
       </plugin>
 
       <plugin filename="gz-sim-joint-state-publisher-system"
-              name="gz::sim::systems::JointStatePublisher">
-        <topic>/${robot_ns}/joint_states</topic>
-        <joint_name>left_wheel_joint</joint_name>
-        <joint_name>right_wheel_joint</joint_name>
-      </plugin>
+        name="gz::sim::systems::JointStatePublisher">
+  <topic>/${robot_ns}/joint_states</topic>
+    <update_rate>50</update_rate> <!-- Ajoute cette ligne ! -->
+
+  <!-- roues motrices -->
+  <joint_name>left_wheel_joint</joint_name>
+  <joint_name>right_wheel_joint</joint_name>
+
+  <!-- roulettes avant -->
+  <joint_name>left_caster_plate_joint</joint_name>
+  <joint_name>left_caster_wheel_joint</joint_name>
+  <joint_name>right_caster_plate_joint</joint_name>
+  <joint_name>right_caster_wheel_joint</joint_name>
+</plugin>
+
     </gazebo>
   </xacro:macro>
 </robot>
