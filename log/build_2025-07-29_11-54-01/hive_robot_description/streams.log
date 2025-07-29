@@ -1,0 +1,53 @@
+[0.009s] Invoking command in '/home/thomas24/hiveverse_ws/build/hive_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas24/hiveverse_ws/build/hive_robot_description -- -j16 -l16
+[0.060s] [ 50%] Built target lidar_frame_mapper
+[0.060s] [ 66%] Built target multi_odom_tf_broadcaster
+[0.065s] [ 83%] [32mBuilding CXX object CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/src/multi_robot_tf_and_lidar_mapper.cpp.o[0m
+[10.943s] [100%] [32m[1mLinking CXX executable multi_robot_tf_and_lidar_mapper[0m
+[11.380s] [100%] Built target multi_robot_tf_and_lidar_mapper
+[11.393s] Invoked command in '/home/thomas24/hiveverse_ws/build/hive_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas24/hiveverse_ws/build/hive_robot_description -- -j16 -l16
+[11.404s] Invoking command in '/home/thomas24/hiveverse_ws/build/hive_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas24/hiveverse_ws/build/hive_robot_description
+[11.413s] -- Install configuration: ""
+[11.413s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch
+[11.414s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/view_model.launch.py
+[11.414s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/publish_static_robot.launch.py
+[11.414s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/gazebo_model.launch.py
+[11.414s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/multi_robot_spawn.launch.py
+[11.414s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/spawn_mk5_200.launch.py
+[11.414s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/hive_test_launch.py
+[11.414s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/spawn_gz.launch.py
+[11.414s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/launch/mono_robot_spawn.launch.py
+[11.414s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model
+[11.414s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model/mk5_200.gazebo
+[11.414s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model/robot_pink.urdf
+[11.414s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model/mk5_200.urdf.xacro
+[11.414s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model/caca.urdf.xacro
+[11.415s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model/bleu_robot.urdf
+[11.415s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model/mk5_200
+[11.415s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model/mk5_200/model.sdf
+[11.415s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/model/mk5_200/model.config
+[11.415s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/worlds
+[11.415s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/worlds/hive_empty_world.world.sdf
+[11.415s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/worlds/merde.sdf
+[11.415s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/worlds/hive_test.world.sdf
+[11.415s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/parameters
+[11.415s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/parameters/bridge_parameters.yaml
+[11.415s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/lib/hive_robot_description/multi_odom_tf_broadcaster
+[11.415s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/lib/hive_robot_description/lidar_frame_mapper
+[11.415s] -- Installing: /home/thomas24/hiveverse_ws/install/hive_robot_description/lib/hive_robot_description/multi_robot_tf_and_lidar_mapper
+[11.427s] -- Set non-toolchain portion of runtime path of "/home/thomas24/hiveverse_ws/install/hive_robot_description/lib/hive_robot_description/multi_robot_tf_and_lidar_mapper" to ""
+[11.428s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/ament_index/resource_index/package_run_dependencies/hive_robot_description
+[11.428s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/ament_index/resource_index/parent_prefix_path/hive_robot_description
+[11.428s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/environment/ament_prefix_path.sh
+[11.428s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/environment/ament_prefix_path.dsv
+[11.428s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/environment/path.sh
+[11.428s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/environment/path.dsv
+[11.428s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/local_setup.bash
+[11.428s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/local_setup.sh
+[11.428s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/local_setup.zsh
+[11.429s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/local_setup.dsv
+[11.429s] -- Installing: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/package.dsv
+[11.429s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/ament_index/resource_index/packages/hive_robot_description
+[11.429s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/cmake/hive_robot_descriptionConfig.cmake
+[11.429s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/cmake/hive_robot_descriptionConfig-version.cmake
+[11.429s] -- Up-to-date: /home/thomas24/hiveverse_ws/install/hive_robot_description/share/hive_robot_description/package.xml
+[11.431s] Invoked command in '/home/thomas24/hiveverse_ws/build/hive_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas24/hiveverse_ws/build/hive_robot_description

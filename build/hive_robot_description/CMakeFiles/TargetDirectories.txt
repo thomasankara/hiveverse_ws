@@ -2,6 +2,7 @@
 /home/thomas24/hiveverse_ws/build/hive_robot_description/CMakeFiles/hive_robot_description_uninstall.dir
 /home/thomas24/hiveverse_ws/build/hive_robot_description/CMakeFiles/multi_odom_tf_broadcaster.dir
 /home/thomas24/hiveverse_ws/build/hive_robot_description/CMakeFiles/lidar_frame_mapper.dir
+/home/thomas24/hiveverse_ws/build/hive_robot_description/CMakeFiles/multi_robot_tf_and_lidar_mapper.dir
 /home/thomas24/hiveverse_ws/build/hive_robot_description/CMakeFiles/test.dir
 /home/thomas24/hiveverse_ws/build/hive_robot_description/CMakeFiles/edit_cache.dir
 /home/thomas24/hiveverse_ws/build/hive_robot_description/CMakeFiles/rebuild_cache.dir

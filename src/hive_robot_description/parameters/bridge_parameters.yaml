@@ -89,3 +89,10 @@
   gz_type_name: "gz.msgs.PointCloudPacked"
   direction: GZ_TO_ROS
   lazy: false
+
+# --- Ground‑truth de la simulation ----------------------
+- ros_topic_name: "/world/pose_info"            # nom côté ROS (choisis‑le comme tu veux)
+  gz_topic_name:  "/world/empty/pose/info"      # nom exact côté Gazebo
+  ros_type_name:  "tf2_msgs/msg/TFMessage"      # conversion Pose_V ➜ TFMessage
+  gz_type_name:   "gz.msgs.Pose_V"
+  direction:      GZ_TO_ROS

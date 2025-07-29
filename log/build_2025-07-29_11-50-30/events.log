@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.000588] (hive_robot_description) JobQueued: {'identifier': 'hive_robot_description', 'dependencies': OrderedDict()}
+[0.000628] (hive_robot_description) JobStarted: {'identifier': 'hive_robot_description'}
+[0.007232] (hive_robot_description) JobProgress: {'identifier': 'hive_robot_description', 'progress': 'cmake'}
+[0.008408] (hive_robot_description) JobProgress: {'identifier': 'hive_robot_description', 'progress': 'build'}
+[0.008443] (hive_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thomas24/hiveverse_ws/build/hive_robot_description', '--', '-j16', '-l16'], 'cwd': '/home/thomas24/hiveverse_ws/build/hive_robot_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'thomas24', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/thomas24', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2748', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/thomas24/hiveverse_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'thomas24', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'thomas24', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/thomas24/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/thomas24/.local/bin:/home/thomas24/.local/bin', 'SESSION_MANAGER': 'local/thomas24-Legion-Pro-5-16ARX8:@/tmp/.ICE-unix/2704,unix/thomas24-Legion-Pro-5-16ARX8:/tmp/.ICE-unix/2704', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7bc8aebb_8b89_4069_8da0_2994c95ddace', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.129', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/thomas24/hiveverse_ws/build/hive_robot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/thomas24/hiveverse_ws/install/hive_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.036415] (hive_robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099627] (-) TimerEvent: {}
+[0.199868] (-) TimerEvent: {}
+[0.218955] (hive_robot_description) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.239813] (hive_robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.246371] (hive_robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.254205] (hive_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.263193] (hive_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299991] (-) TimerEvent: {}
+[0.309003] (hive_robot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.309833] (hive_robot_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.362215] (hive_robot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400103] (-) TimerEvent: {}
+[0.410642] (hive_robot_description) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.451260] (hive_robot_description) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.471066] (hive_robot_description) StdoutLine: {'line': b'-- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[0.473545] (hive_robot_description) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.12 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[0.500261] (-) TimerEvent: {}
+[0.556919] (hive_robot_description) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[0.559133] (hive_robot_description) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[0.560007] (hive_robot_description) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.564167] (hive_robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.600350] (-) TimerEvent: {}
+[0.634309] (hive_robot_description) StdoutLine: {'line': b'-- Configuring done (0.6s)\n'}
+[0.650702] (hive_robot_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.656073] (hive_robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/thomas24/hiveverse_ws/build/hive_robot_description\n'}
+[0.693266] (hive_robot_description) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/src/multi_robot_tf_and_lidar_mapper.cpp.o\x1b[0m\n'}
+[0.700490] (-) TimerEvent: {}
+[0.701566] (hive_robot_description) StdoutLine: {'line': b'[ 83%] Built target multi_odom_tf_broadcaster\n'}
+[0.701718] (hive_robot_description) StdoutLine: {'line': b'[ 83%] Built target lidar_frame_mapper\n'}
+[0.800680] (-) TimerEvent: {}
+[0.900998] (-) TimerEvent: {}
+[1.001290] (-) TimerEvent: {}
+[1.101573] (-) TimerEvent: {}
+[1.201882] (-) TimerEvent: {}
+[1.302156] (-) TimerEvent: {}
+[1.402418] (-) TimerEvent: {}
+[1.502732] (-) TimerEvent: {}
+[1.603063] (-) TimerEvent: {}
+[1.703567] (-) TimerEvent: {}
+[1.803881] (-) TimerEvent: {}
+[1.904199] (-) TimerEvent: {}
+[2.004739] (-) TimerEvent: {}
+[2.105036] (-) TimerEvent: {}
+[2.205302] (-) TimerEvent: {}
+[2.305561] (-) TimerEvent: {}
+[2.405801] (-) TimerEvent: {}
+[2.506049] (-) TimerEvent: {}
+[2.590911] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMultiRobotTFAndLidar::\x1b[01;32m\x1b[KMultiRobotTFAndLidar\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.591305] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:48:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::QoS::QoS()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.591369] (hive_robot_description) StderrLine: {'line': b'   48 |   : Node("multi_robot_tf_and_lidar"), qos_(1\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[2.591421] (hive_robot_description) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.591475] (hive_robot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:33\x1b[m\x1b[K,\n'}
+[2.591540] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:45\x1b[m\x1b[K,\n'}
+[2.591592] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.591643] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.591692] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.591742] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.591792] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22\x1b[m\x1b[K,\n'}
+[2.591839] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38\x1b[m\x1b[K,\n'}
+[2.591896] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.591997] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.592059] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[2.592110] (hive_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:17\x1b[m\x1b[K:\n'}
+[2.592155] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:146:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::QoS::\x1b[01;32m\x1b[KQoS\x1b[m\x1b[K(size_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.592210] (hive_robot_description) StderrLine: {'line': b'  146 |   \x1b[01;36m\x1b[KQoS\x1b[m\x1b[K(size_t history_depth);  // NOLINT(runtime/explicit): conversion constructor\n'}
+[2.592256] (hive_robot_description) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.592301] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:146:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[2.592358] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:133:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::QoS::\x1b[01;32m\x1b[KQoS\x1b[m\x1b[K(const rclcpp::QoSInitialization&, const rmw_qos_profile_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.592426] (hive_robot_description) StderrLine: {'line': b'  133 |   \x1b[01;36m\x1b[KQoS\x1b[m\x1b[K(\n'}
+[2.592483] (hive_robot_description) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.592554] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:133:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[2.592611] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:115:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr rclcpp::QoS::\x1b[01;32m\x1b[KQoS\x1b[m\x1b[K(const rclcpp::QoS&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.592670] (hive_robot_description) StderrLine: {'line': b'  115 | class RCLCPP_PUBLIC \x1b[01;36m\x1b[KQoS\x1b[m\x1b[K\n'}
+[2.592719] (hive_robot_description) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.592775] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:115:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[2.592834] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:115:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr rclcpp::QoS::\x1b[01;32m\x1b[KQoS\x1b[m\x1b[K(rclcpp::QoS&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.592902] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:115:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[2.592954] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:52:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kconverting to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_interfaces::msg::ParameterDescriptor\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} from initializer list would use explicit constructor \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg::ParameterDescriptor_<ContainerAllocator>::\x1b[01;32m\x1b[KParameterDescriptor_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization) \x1b[35m\x1b[K[with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.593028] (hive_robot_description) StderrLine: {'line': b'   52 |     topics_param_    = \x1b[01;35m\x1b[Kdeclare_parameter<std::vector<std::string>>("topics", {})\x1b[m\x1b[K;\n'}
+[2.593131] (hive_robot_description) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.593200] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:52:67:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin C++11 and above a default constructor can be explicit\n'}
+[2.593267] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:65:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""s\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.593328] (hive_robot_description) StderrLine: {'line': b'   65 |       \x1b[01;31m\x1b[K1s\x1b[m\x1b[K, std::bind(&MultiRobotTFAndLidar::discover_odom_topics, this));\n'}
+[2.593392] (hive_robot_description) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.595696] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:68:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""s\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.595806] (hive_robot_description) StderrLine: {'line': b'   68 |       \x1b[01;31m\x1b[K2s\x1b[m\x1b[K, std::bind(&MultiRobotTFAndLidar::discover_pc2_topics, this));\n'}
+[2.595884] (hive_robot_description) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.606138] (-) TimerEvent: {}
+[2.608713] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MultiRobotTFAndLidar::\x1b[01;32m\x1b[Khandle_odom\x1b[m\x1b[K(const std::string&, const nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.608954] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:121:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KgetYaw\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ktf2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.609038] (hive_robot_description) StderrLine: {'line': b'  121 |     o.yaw = tf2::\x1b[01;31m\x1b[KgetYaw\x1b[m\x1b[K(msg->pose.pose.orientation);\n'}
+[2.609128] (hive_robot_description) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.613578] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MultiRobotTFAndLidar::\x1b[01;32m\x1b[Kon_world_pose\x1b[m\x1b[K(tf2_msgs::msg::TFMessage_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.613689] (hive_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:144:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KgetYaw\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ktf2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.613753] (hive_robot_description) StderrLine: {'line': b'  144 |       Pose2D p; p.x=x; p.y=y; p.yaw=tf2::\x1b[01;31m\x1b[KgetYaw\x1b[m\x1b[K(tr.transform.rotation);\n'}
+[2.613814] (hive_robot_description) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.706298] (-) TimerEvent: {}
+[2.806593] (-) TimerEvent: {}
+[2.906910] (-) TimerEvent: {}
+[3.007313] (-) TimerEvent: {}
+[3.107593] (-) TimerEvent: {}
+[3.207977] (-) TimerEvent: {}
+[3.308278] (-) TimerEvent: {}
+[3.408569] (-) TimerEvent: {}
+[3.508812] (-) TimerEvent: {}
+[3.609078] (-) TimerEvent: {}
+[3.709432] (-) TimerEvent: {}
+[3.809726] (-) TimerEvent: {}
+[3.909989] (-) TimerEvent: {}
+[4.010290] (-) TimerEvent: {}
+[4.110554] (-) TimerEvent: {}
+[4.210882] (-) TimerEvent: {}
+[4.311298] (-) TimerEvent: {}
+[4.411573] (-) TimerEvent: {}
+[4.511835] (-) TimerEvent: {}
+[4.612114] (-) TimerEvent: {}
+[4.712376] (-) TimerEvent: {}
+[4.812725] (-) TimerEvent: {}
+[4.913119] (-) TimerEvent: {}
+[5.013395] (-) TimerEvent: {}
+[5.113677] (-) TimerEvent: {}
+[5.213942] (-) TimerEvent: {}
+[5.314245] (-) TimerEvent: {}
+[5.414555] (-) TimerEvent: {}
+[5.459812] (hive_robot_description) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/build.make:76: CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/src/multi_robot_tf_and_lidar_mapper.cpp.o] Error 1\n'}
+[5.460097] (hive_robot_description) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/all] Error 2\n'}
+[5.460256] (hive_robot_description) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.462659] (hive_robot_description) CommandEnded: {'returncode': 2}
+[5.469555] (hive_robot_description) JobEnded: {'identifier': 'hive_robot_description', 'rc': 2}
+[5.479915] (-) EventReactorShutdown: {}

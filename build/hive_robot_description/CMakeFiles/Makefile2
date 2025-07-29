@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/thomas24/hiveverse_ws/build/hive_robot_description
 # The main recursive "all" target.
 all: CMakeFiles/multi_odom_tf_broadcaster.dir/all
 all: CMakeFiles/lidar_frame_mapper.dir/all
+all: CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/hive_robot_description_uninstall.dir/clean
 clean: CMakeFiles/multi_odom_tf_broadcaster.dir/clean
 clean: CMakeFiles/lidar_frame_mapper.dir/clean
+clean: CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -181,6 +183,32 @@ lidar_frame_mapper: CMakeFiles/lidar_frame_mapper.dir/rule
 CMakeFiles/lidar_frame_mapper.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_frame_mapper.dir/build.make CMakeFiles/lidar_frame_mapper.dir/clean
 .PHONY : CMakeFiles/lidar_frame_mapper.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/multi_robot_tf_and_lidar_mapper.dir
+
+# All Build rule for target.
+CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/build.make CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/build.make CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thomas24/hiveverse_ws/build/hive_robot_description/CMakeFiles --progress-num=5,6 "Built target multi_robot_tf_and_lidar_mapper"
+.PHONY : CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas24/hiveverse_ws/build/hive_robot_description/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas24/hiveverse_ws/build/hive_robot_description/CMakeFiles 0
+.PHONY : CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/rule
+
+# Convenience name for target.
+multi_robot_tf_and_lidar_mapper: CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/rule
+.PHONY : multi_robot_tf_and_lidar_mapper
+
+# clean rule for target.
+CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/build.make CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/clean
+.PHONY : CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

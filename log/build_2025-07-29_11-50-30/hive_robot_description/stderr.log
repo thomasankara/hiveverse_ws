@@ -1,0 +1,51 @@
+[01m[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:[m[K In constructor ‘[01m[KMultiRobotTFAndLidar::[01;32m[KMultiRobotTFAndLidar[m[K()[m[K’:
+[01m[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:48:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::QoS()[m[K’
+   48 |   : Node("multi_robot_tf_and_lidar"), qos_(1[01;31m[K)[m[K
+      |                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:33[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:45[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:17[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:146:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS::[01;32m[KQoS[m[K(size_t)[m[K’
+  146 |   [01;36m[KQoS[m[K(size_t history_depth);  // NOLINT(runtime/explicit): conversion constructor
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:146:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:133:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS::[01;32m[KQoS[m[K(const rclcpp::QoSInitialization&, const rmw_qos_profile_t&)[m[K’
+  133 |   [01;36m[KQoS[m[K(
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:133:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:115:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr rclcpp::QoS::[01;32m[KQoS[m[K(const rclcpp::QoS&)[m[K’
+  115 | class RCLCPP_PUBLIC [01;36m[KQoS[m[K
+      |                     [01;36m[K^~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:115:21:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:115:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr rclcpp::QoS::[01;32m[KQoS[m[K(rclcpp::QoS&&)[m[K’
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:115:21:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:52:67:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Krcl_interfaces::msg::ParameterDescriptor_<ContainerAllocator>::[01;32m[KParameterDescriptor_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+   52 |     topics_param_    = [01;35m[Kdeclare_parameter<std::vector<std::string>>("topics", {})[m[K;
+      |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:52:67:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[01m[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:65:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+   65 |       [01;31m[K1s[m[K, std::bind(&MultiRobotTFAndLidar::discover_odom_topics, this));
+      |       [01;31m[K^~[m[K
+[01m[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:68:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+   68 |       [01;31m[K2s[m[K, std::bind(&MultiRobotTFAndLidar::discover_pc2_topics, this));
+      |       [01;31m[K^~[m[K
+[01m[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:[m[K In member function ‘[01m[Kvoid MultiRobotTFAndLidar::[01;32m[Khandle_odom[m[K(const std::string&, const nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr&)[m[K’:
+[01m[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:121:18:[m[K [01;31m[Kerror: [m[K‘[01m[KgetYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+  121 |     o.yaw = tf2::[01;31m[KgetYaw[m[K(msg->pose.pose.orientation);
+      |                  [01;31m[K^~~~~~[m[K
+[01m[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:[m[K In member function ‘[01m[Kvoid MultiRobotTFAndLidar::[01;32m[Kon_world_pose[m[K(tf2_msgs::msg::TFMessage_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_robot_tf_and_lidar_mapper.cpp:144:42:[m[K [01;31m[Kerror: [m[K‘[01m[KgetYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+  144 |       Pose2D p; p.x=x; p.y=y; p.yaw=tf2::[01;31m[KgetYaw[m[K(tr.transform.rotation);
+      |                                          [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/build.make:76: CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/src/multi_robot_tf_and_lidar_mapper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

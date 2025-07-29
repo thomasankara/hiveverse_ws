@@ -19,15 +19,21 @@ install(
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
+find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
 
 add_executable(multi_odom_tf_broadcaster src/multi_odom_tf_broadcaster.cpp)
-ament_target_dependencies(multi_odom_tf_broadcaster rclcpp nav_msgs tf2_ros)
+ament_target_dependencies(multi_odom_tf_broadcaster rclcpp nav_msgs tf2 tf2_ros tf2_geometry_msgs)
 install(TARGETS multi_odom_tf_broadcaster DESTINATION lib/${PROJECT_NAME})
 
 add_executable(lidar_frame_mapper src/lidar_frame_mapper.cpp)
 ament_target_dependencies(lidar_frame_mapper rclcpp sensor_msgs)
 install(TARGETS lidar_frame_mapper DESTINATION lib/${PROJECT_NAME})
+
+add_executable(multi_robot_tf_and_lidar_mapper src/multi_robot_tf_and_lidar_mapper.cpp)
+ament_target_dependencies(multi_robot_tf_and_lidar_mapper rclcpp sensor_msgs nav_msgs tf2 tf2_ros tf2_geometry_msgs)
+install(TARGETS multi_robot_tf_and_lidar_mapper DESTINATION lib/${PROJECT_NAME})
 
 
 if(BUILD_TESTING)

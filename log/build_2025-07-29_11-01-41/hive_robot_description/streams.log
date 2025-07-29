@@ -1,0 +1,11 @@
+[0.008s] Invoking command in '/home/thomas24/hiveverse_ws/build/hive_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas24/hiveverse_ws/build/hive_robot_description -- -j16 -l16
+[0.060s] [ 50%] Built target lidar_frame_mapper
+[0.064s] [ 75%] [32mBuilding CXX object CMakeFiles/multi_odom_tf_broadcaster.dir/src/multi_odom_tf_broadcaster.cpp.o[0m
+[0.280s] [01m[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_odom_tf_broadcaster.cpp:21:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.h: No such file or directory
+[0.280s]    21 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.h>[m[K
+[0.280s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.280s] compilation terminated.
+[0.283s] gmake[2]: *** [CMakeFiles/multi_odom_tf_broadcaster.dir/build.make:76: CMakeFiles/multi_odom_tf_broadcaster.dir/src/multi_odom_tf_broadcaster.cpp.o] Error 1
+[0.284s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/multi_odom_tf_broadcaster.dir/all] Error 2
+[0.284s] gmake: *** [Makefile:146: all] Error 2
+[0.286s] Invoked command in '/home/thomas24/hiveverse_ws/build/hive_robot_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas24/hiveverse_ws/build/hive_robot_description -- -j16 -l16

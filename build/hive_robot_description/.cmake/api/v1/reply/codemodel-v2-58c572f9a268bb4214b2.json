@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5970fdc1a5a3439f8dad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hive_robot_description",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hive_robot_description_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hive_robot_description_uninstall-5d7bd2fa5090781f366d.json",
+					"name" : "hive_robot_description_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_frame_mapper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_frame_mapper-b0dce39a84e5a1ba6eca.json",
+					"name" : "lidar_frame_mapper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_odom_tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_odom_tf_broadcaster-f30feaa7996b3e990b61.json",
+					"name" : "multi_odom_tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_robot_tf_and_lidar_mapper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_robot_tf_and_lidar_mapper-1aa131655a34f7f7ea14.json",
+					"name" : "multi_robot_tf_and_lidar_mapper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-36a8cec112b73633b754.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thomas24/hiveverse_ws/build/hive_robot_description",
+		"source" : "/home/thomas24/hiveverse_ws/src/hive_robot_description"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,9 @@
+[ 50%] Built target lidar_frame_mapper
+[ 75%] [32mBuilding CXX object CMakeFiles/multi_odom_tf_broadcaster.dir/src/multi_odom_tf_broadcaster.cpp.o[0m
+[01m[K/home/thomas24/hiveverse_ws/src/hive_robot_description/src/multi_odom_tf_broadcaster.cpp:21:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.h: No such file or directory
+   21 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/multi_odom_tf_broadcaster.dir/build.make:76: CMakeFiles/multi_odom_tf_broadcaster.dir/src/multi_odom_tf_broadcaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/multi_odom_tf_broadcaster.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

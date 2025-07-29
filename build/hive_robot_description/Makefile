@@ -223,6 +223,19 @@ lidar_frame_mapper/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_frame_mapper.dir/build.make CMakeFiles/lidar_frame_mapper.dir/build
 .PHONY : lidar_frame_mapper/fast
 
+#=============================================================================
+# Target rules for targets named multi_robot_tf_and_lidar_mapper
+
+# Build rule for target.
+multi_robot_tf_and_lidar_mapper: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 multi_robot_tf_and_lidar_mapper
+.PHONY : multi_robot_tf_and_lidar_mapper
+
+# fast build rule for target.
+multi_robot_tf_and_lidar_mapper/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/build.make CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/build
+.PHONY : multi_robot_tf_and_lidar_mapper/fast
+
 src/lidar_frame_mapper.o: src/lidar_frame_mapper.cpp.o
 .PHONY : src/lidar_frame_mapper.o
 
@@ -271,6 +284,30 @@ src/multi_odom_tf_broadcaster.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/multi_odom_tf_broadcaster.dir/build.make CMakeFiles/multi_odom_tf_broadcaster.dir/src/multi_odom_tf_broadcaster.cpp.s
 .PHONY : src/multi_odom_tf_broadcaster.cpp.s
 
+src/multi_robot_tf_and_lidar_mapper.o: src/multi_robot_tf_and_lidar_mapper.cpp.o
+.PHONY : src/multi_robot_tf_and_lidar_mapper.o
+
+# target to build an object file
+src/multi_robot_tf_and_lidar_mapper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/build.make CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/src/multi_robot_tf_and_lidar_mapper.cpp.o
+.PHONY : src/multi_robot_tf_and_lidar_mapper.cpp.o
+
+src/multi_robot_tf_and_lidar_mapper.i: src/multi_robot_tf_and_lidar_mapper.cpp.i
+.PHONY : src/multi_robot_tf_and_lidar_mapper.i
+
+# target to preprocess a source file
+src/multi_robot_tf_and_lidar_mapper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/build.make CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/src/multi_robot_tf_and_lidar_mapper.cpp.i
+.PHONY : src/multi_robot_tf_and_lidar_mapper.cpp.i
+
+src/multi_robot_tf_and_lidar_mapper.s: src/multi_robot_tf_and_lidar_mapper.cpp.s
+.PHONY : src/multi_robot_tf_and_lidar_mapper.s
+
+# target to generate assembly for a file
+src/multi_robot_tf_and_lidar_mapper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/build.make CMakeFiles/multi_robot_tf_and_lidar_mapper.dir/src/multi_robot_tf_and_lidar_mapper.cpp.s
+.PHONY : src/multi_robot_tf_and_lidar_mapper.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +325,16 @@ help:
 	@echo "... uninstall"
 	@echo "... lidar_frame_mapper"
 	@echo "... multi_odom_tf_broadcaster"
+	@echo "... multi_robot_tf_and_lidar_mapper"
 	@echo "... src/lidar_frame_mapper.o"
 	@echo "... src/lidar_frame_mapper.i"
 	@echo "... src/lidar_frame_mapper.s"
 	@echo "... src/multi_odom_tf_broadcaster.o"
 	@echo "... src/multi_odom_tf_broadcaster.i"
 	@echo "... src/multi_odom_tf_broadcaster.s"
+	@echo "... src/multi_robot_tf_and_lidar_mapper.o"
+	@echo "... src/multi_robot_tf_and_lidar_mapper.i"
+	@echo "... src/multi_robot_tf_and_lidar_mapper.s"
 .PHONY : help
 
 
